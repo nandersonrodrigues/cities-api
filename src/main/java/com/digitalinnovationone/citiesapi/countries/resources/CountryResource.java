@@ -1,4 +1,4 @@
-package com.digitalinnovationone.citiesapi;
+package com.digitalinnovationone.citiesapi.countries.resources;
 
 import com.digitalinnovationone.citiesapi.countries.entities.Country;
 import com.digitalinnovationone.citiesapi.countries.repositories.CountryRepository;

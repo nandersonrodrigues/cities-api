@@ -1,4 +1,4 @@
-package com.digitalinnovationone.citiesapi.repository;
+package com.digitalinnovationone.citiesapi.countries.repositories;
 
 import com.digitalinnovationone.citiesapi.countries.entities.Country;
 import org.springframework.data.jpa.repository.JpaRepository;

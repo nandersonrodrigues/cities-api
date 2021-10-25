@@ -1,4 +1,4 @@
-package com.digitalinnovationone.citiesapi.countries;
+package com.digitalinnovationone.citiesapi.countries.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
