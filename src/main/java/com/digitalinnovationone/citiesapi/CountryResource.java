@@ -27,6 +27,16 @@ public class CountryResource {
     public Page<Country> countries(Pageable page) {
         return countryRepository.findAll(page);
     }
+
+    @GetMapping("/{id}")
+    public ResponseEntity getOne(@PathVariable Long id) {
+        Optional<Country> country = countryRepository.findById(id);
+
+        if (country.isPresent()) {
+            return ResponseEntity.ok().body(country.get());
+        }else {
+            return ResponseEntity.notFound().build();
+        }
     }
 
 }
